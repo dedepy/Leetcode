@@ -26,3 +26,6 @@ class Solution:
 
         # Возвращаем результат с учетом знака
         return sign * result
+s = str(input())
+solution = Solution()
+print(solution.myAtoi(s))  # Вывод: 42
