@@ -27,3 +27,8 @@ class Solution:
                     dp[i][j] = False
 
         return dp[len(s)][len(p)]
+
+s = "aa"
+p = "a*"
+solution = Solution()
+print(solution.isMatch(s, p))  # Вывод: False
