@@ -28,7 +28,7 @@ class Solution:
 
         return dp[len(s)][len(p)]
 
-s = "aa"
-p = "a*"
+s = "ab"
+p = "a*b*"
 solution = Solution()
 print(solution.isMatch(s, p))  # Вывод: False
